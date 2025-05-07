@@ -1,5 +1,5 @@
 import builtins
-from infra.interfaces import IVpcRivStack
+from interfaces import IVpcRivStack
 from infra.userportal.gateway.topology import RivUserPortalGateway
 from infra.frontend.cognito.topology import RivCognitoForLivenes
 from constructs import Construct

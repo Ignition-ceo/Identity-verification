@@ -1,10 +1,10 @@
-# Amazon Rekognition Identity Verification (RIV)
+# Ignition Identity Verification (IDV)
 
 A solution to assist with identity verification using Amazon Rekognition.
 
 ## Prerequisites
 
-There are two personas that will need to deploy the Rekognition Identity Verification sample.  First, is operational teams that want to use the official artifacts.  These users can leverage the Launch Template button to deploy the topology into their account.  This audience does not need to worry about additional prerequisite or deployment steps.  In contrast, the second persona is development teams that must customize the solution.  These users can either use the Docker-based build terminal or locally install on their workstation.
+There are two personas that will need to deploy the  Identity Verification sample.  First, is operational teams that want to use the official artifacts.  These users can leverage the Launch Template button to deploy the topology into their account.  This audience does not need to worry about additional prerequisite or deployment steps.  In contrast, the second persona is development teams that must customize the solution.  These users can either use the Docker-based build terminal or locally install on their workstation.
 
 The Docker-based build terminal provides a consistent experience across Microsoft Windows, Apple OSX, and Linux environments.  There are [two scripts](docker-deploy), available named *ship-it* and *debug*.  Invoking *ship-it* will create the Docker-based deployment process, push the local code into AWS, and then exit. Alternatively, *debug* creates a long running terminal session that’s suited for hands-on-keyboard situations.
 
